@@ -1,2 +1,13 @@
 $black: #000000;
 $white: #ffffff;
+
+// screen size
+$screen-md: 769px;
+
+///
+@mixin flex-position($direction, $align, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
