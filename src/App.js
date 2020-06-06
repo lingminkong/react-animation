@@ -45,6 +45,11 @@ function App() {
         stagger: {
           amount: 0.4,
         },
+      })
+      .to('.intro-overlay', 0, {
+        css: {
+          display: 'none',
+        },
       });
   }, []);
   return (
